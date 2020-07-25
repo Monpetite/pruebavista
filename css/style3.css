@@ -1,0 +1,402 @@
+.firsttittle{
+    font-family: 'Federo', sans-serif;
+    font-size: 3rem ;
+    margin-bottom: 0.1em;
+}
+
+.profile .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.5em;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding-right: 0;
+    padding-left: 3.5em;
+    background-color: rgb(26, 25, 25, 0.8);
+    border-left-style: solid;
+    border-color: #6600009f;
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.container .icons{
+    width: 20px;
+    margin-right: 1em;
+}
+
+.container .red{
+    width: 35px;
+    margin-top: 1.1em;
+}
+
+.profile .container h1{
+    font-size: 2rem;
+    margin-bottom: -0.6em;
+}
+
+.profile .container h2{
+    margin-bottom: 2em;
+    font-size: medium;
+    letter-spacing: 0.6px;
+}
+
+.profile .container #logopro{
+    padding: 4em 4em;
+}
+
+/* CV */
+
+.cuvi .container{
+    background-color: rgb(26, 25, 25, 0.8);
+    font-family: 'Nunito', sans-serif !important;
+    font-size: medium;
+    color: #fffcf9b0;
+    text-align: justify;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+.cuvi .container p{
+    margin: 2em 2em;
+}
+
+.boton3 {
+    margin-bottom: 2em;
+}
+
+/* Education  */
+
+.education h1{
+    font-family: 'Federo', sans-serif;
+    font-size: 2rem;
+    display: block;
+     text-align: center;
+     margin-top: 4em;
+}
+
+.education .container{
+    background-color: #6600009f;
+    padding: 3em 3em;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif !important;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+.education hr{
+    margin-bottom: 1.6em;
+    margin-top: 1em;
+}
+
+.education h3{
+    color: #adaaa7;
+}
+
+
+.education .icons{
+    width: 30px;
+}
+
+/* Publication */ 
+
+.publication .container{
+    background-color: rgb(26, 25, 25, 0.8);
+    padding: 3em 3em;
+    font-size: medium;
+    color: #fffcf9b0;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif !important;
+    border-left-style: solid;
+    border-color: #6600009f;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+.publication h1{
+    font-family: 'Federo', sans-serif;
+    font-size: 2rem;
+    display: block;
+     text-align: center;
+     margin-top: 4em;
+}
+
+.publication .container h2{
+    color: #880404;
+    margin: 1em 0;
+}
+
+.publication .container hr{
+    margin-top: 1em;
+}
+
+.publication .icons{
+    width: 30px;
+}
+
+.publication .container #descriptor{
+    color: #880404;
+}
+
+.publication .container p{
+    margin-bottom: 3em;
+}
+
+
+/* Certification */
+
+.certification .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.5em;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif !important;
+    width: 70%;
+    margin: 3rem auto;
+    font-size: medium;
+    
+
+
+}
+
+.certification h1 {
+    font-size: 2rem;
+    display: block;
+     text-align: center;
+     margin-top: 4em;
+
+}
+
+.certification .icons{
+    width: 40px;
+}
+
+.certification h3{
+    margin-top: 2em;
+}
+
+.container .box1{
+    background-color: rgb(26, 25, 25, 0.8);
+    padding: 1em 2em;
+    border-left-style: solid;
+    border-color: #6600009f;
+}
+
+.container .box2{
+    background-color: #6600009f;
+    padding: 1em 2em;
+    border-left-style: solid;
+    border-color: rgb(26, 25, 25, 0.8);
+}
+
+
+
+/* Workshops  */
+
+.workshops h1{
+    font-size: 2rem;
+    display: block;
+     text-align: center;
+     margin-top: 4em;
+
+}
+
+.workshops .box1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif !important;
+    font-size: medium;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+
+.workshops  #parag1{
+    background-color: #6600009f ;
+    padding: 2em 3em;
+    text-align: justify;
+    border-left: 0.6em solid rgb(26, 25, 25, 1);
+}
+.workshops  #parag2{
+    background-color:  rgba(26, 25, 25, 0.993) ;
+    padding: 2em 3em;
+    text-align: justify;
+    border-left: 0.6em solid #6600009f;
+}
+
+.workshops p{
+    padding: 1em 1.5em;
+}
+
+.workshops .icons{
+    width: 30px;
+}
+
+/* Experiences */
+
+
+.experience .container{
+    
+    font-family: 'Nunito', sans-serif !important;
+    font-size: medium;
+    width: 70%;
+    margin: 3rem auto;
+    
+}
+
+
+
+.experience hr{
+    margin-bottom: 1.6em;
+    margin-top: 1em;
+}
+
+.experience h1{
+    font-size: 2rem;
+    font-family: 'Federo', sans-serif;
+    display: block;
+     text-align: center;
+     margin-top: 4em;
+}
+
+.experience h2{
+    font-size: 1.3rem;
+    margin-top: 1em;
+}
+
+.experience h3{
+    color: #880404;
+    margin-bottom: 1em;
+}
+
+
+.experience .icons{
+    width: 40px;
+}
+
+
+
+.experience .container #box1{
+    padding: 1em 1em;
+    background-color: rgb(26, 25, 25, 0.8);
+    border-left: 0.6em solid #6600009f;
+}
+
+.experience #recomen{
+    background-color: #6600009f;
+    padding: 2em 2em;
+    text-align: justify;
+    margin-top: 2em;
+}
+
+.experience #recomen h1{
+    margin-top: -0.5em !important;
+}
+
+.experience .container .box3{
+    margin-top: 4em;
+    border-left: 0.6em solid #6600009f;
+}
+
+/* Media Queries */
+
+@media(max-width: 700px){
+
+    .profile .container{
+		grid-template-columns: 1fr;
+        text-align: center;
+        width: 100%;
+}
+
+    .profile .container div:first-child{
+    order:2;
+    }
+    
+    .profile .container div:last-child{
+    order:-1;
+    }
+    .profile .container{
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .profile .container #logopro{
+        display: none;
+    }
+
+    .cuvi .container{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .education .container{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .publication .container{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .publication .container p{
+        padding-right: 2em;
+        padding-left: 2em;
+        text-align: justify;
+    }
+
+    .certification .container{
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .workshops .box1{
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    } 
+
+    .experience .container{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .section-a .firsttittle{
+        font-size: 1.5rem;
+    }
+
+
+}

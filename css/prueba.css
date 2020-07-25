@@ -1,0 +1,134 @@
+.section-b{
+    background-image: url(https://live.staticflickr.com/65535/50151982298_dfa08ffc84_k.jpg);
+    background-position: center; 
+    background-size: auto; 
+    display:table;
+    height:100%;
+    width:100%;
+}
+
+/* Gallery 1 */
+
+
+.section-b h2 {
+    font-family: 'Federo', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0.4em;
+    margin-top: 1.5em;
+    margin-left: 2em;
+
+}
+
+.horiz{
+    margin: 1em 1em;
+}
+
+.vert{
+    max-width: 270px;
+    margin: 1em 1em;
+}
+.inter{
+    max-width: 300px;
+    margin: 1em 1em;
+}
+
+/* Gallery 1 */
+
+#gallery1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em 4em;
+}
+
+  /* Gallery 2 */
+
+  #gallery2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em 6em;
+}
+
+
+  /* Gallery 3 */
+
+  #gallery3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em 4em;
+}
+
+
+
+  /* Gallery 4 */
+
+  #gallery4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em 4em;
+}
+
+#botongal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+  }
+
+
+.botongallery1{
+    background: #470000;
+    color: #fffcf9;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.1em 2em;
+    border-radius: 0.1em;
+    font-size: 1.3em;
+    font-family: 'Federo', sans-serif;
+    }
+
+.botongallery1:hover {
+    background: #660000;
+}
+
+.botongallery1:active {
+    background: #660000;
+}
+
+/* Media Queries */
+
+@media(max-width: 700px){
+    #gallery1{
+        margin: 0;
+    }
+
+    #gallery2{
+        margin: 0;
+    }
+
+    #gallery3{
+        margin: 0;
+    }
+
+    #gallery4{
+        margin: 0;
+    }
+
+    h1{
+        font-size: 2em !important;
+    }
+
+    h2{
+        font-size: 1.5em !important;
+    }
+
+    .section-a .imagentitulo{
+        width: 16em !important;
+    }
+
+
+}

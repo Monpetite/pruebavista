@@ -1,0 +1,14 @@
+{
+  "name": "plantillavane",
+  "version": "1.0.0",
+  "description": "Plantilla primer cliente",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vanessa Camero helped by David Liendo",
+  "license": "ISC",
+  "dependencies": {
+    "lightbox2": "^2.11.1"
+  }
+}
